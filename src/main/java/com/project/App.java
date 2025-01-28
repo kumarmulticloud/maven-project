@@ -1,8 +1,20 @@
 package com.project;
 
 import java.util.ResourceBundle;
+import javafx.application.Application;
 
-public class App {
+public class App extends Application{
+
+    @Override     
+   public void start(Stage primaryStage) throws Exception { 
+      /* 
+      Code for JavaFX application. 
+      (Stage, scene, scene graph) 
+      */       
+   }         
+   public static void main(String args[]){           
+      launch(args);      
+   } 
 
     public int userLogin(String in_user, String in_pwd) {
         ResourceBundle rb = ResourceBundle.getBundle("config");
